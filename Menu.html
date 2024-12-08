@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+    <title>Kaan Büfe</title>
+    <
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c862fed435.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">Kaan Büfe</a>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home Page</a></li>
+                <li><a href="Aboutus.html">About us</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+            </ul>
+        <div class="food-items"> 
+            <br>
+            <img src="Kumru.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Kumru Meal</h5>
+                    <h5 class="price"> 110 TL </h5>
+                </div>
+                <p>Combination of sliced ​​sausage, cheddar and special sauce with drink and fries</p>
+                <button onclick="addToCart('Kumru', 110)">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="Tost.webp">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Toast Meal</h5>
+                    <h5 class="price"> 100 TL </h5>
+                </div>
+                <p>Toast with plenty of sausage, kashar cheese and tomato paste with drink and fries</p>
+                <button onclick="addToCart('Toast Meal', 100)">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <br><br>
+            <img src="tavukburger-menu.png">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Nugget Meal</h5>
+                    <h5 class="price"> 140 TL </h5>
+                </div>
+                <p>Nugget with greens and plenty of sauce in bread with a drink and fries</p>
+                <button onclick="addToCart('Nugget', 140)">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <br>
+            <img src="Hamburger.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Hamburger Meal</h5>
+                    <h5 class="price"> 120 TL </h5>
+                </div>
+                <p>Burger and Fries</p>
+                <button onclick="addToCart('Simple Hamburger', 120)">Add To Cart</button>
+            </div>
+        </div>
+
+       <br>
+
+    <div id="cart" class="heading"> 
+        
+        <div id="infos">
+            <form>
+                <h2>Information For Order <i class="fa-solid fa-circle-info"></i></i></h2><br>
+                <i class="fa-solid fa-user"></i> Name<span id="req">*</span>: <br><input type="text" placeholder="Name" id="name" required><br><br>
+                <i class="fa-solid fa-circle-user"></i> Surname<span id="req">*</span>: <br><input type="text" placeholder="Surname" id="surname" required><br><br>
+                <i class="fa-solid fa-phone"></i> Phone number<span id="req">*</span>: <br><input type="number" placeholder="04*********" id="phone" required><br><br>
+                <i class="fa-solid fa-envelope"></i> E-Mail: <br><input type="email" placeholder="example@example.com" id="mail"><br><br>
+                <i class="fa-solid fa-location-dot"></i> Adress<span id="req">*</span>: <br><textarea cols="30" rows="5" placeholder="Adresinizi Giriniz." id="address" required></textarea><br>
+            </form>
+        </div>
+
+        
+    </div>
+
+</body>
+<footer>
+    <div class="social-media"> 
+        <ul>
+            <li><a href=""><i class="fa-brands fa-square-x-twitter"></i> X</a></li>
+            <li><a href="https://www.instagram.com/kaanbufe16/"><i class="fa-brands fa-square-instagram"></i> Instagram</a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+            <li><a href="https://www.facebook.com/kaan.bufe"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa-brands fa-square-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+    </div>
+    <br>
+
+</footer>
+</html>
